@@ -3,7 +3,7 @@ import {Container,Button} from "react-bootstrap"
 import "../styles/Home.css"
 import axios from "axios";
 import { Link } from 'react-router-dom';
-import API_URL from "../../../config/global"
+import API_URL from "../../config/global"
 
 const Home = () =>{
     const [res,setRes] = useState({})
